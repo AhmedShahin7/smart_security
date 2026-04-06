@@ -24,6 +24,15 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'camera_stream = smart_security.camera_stream:main',
+            'depth_estimation = smart_security.depth_estimation:main',
+            'event_logger = smart_security.event_logger:main',
+            'event_manager = smart_security.event_manager:main',
+            'object_detection = smart_security.object_detection:main',
+            'scene_analysis = smart_security.scene_analysis:main',
+            'security_response = smart_security.security_response:main',  
+            'system_monitor = smart_security.system_monitor:main',
+            'alarm_controller = smart_security.alarm_controller:main'         
         ],
     },
 )
